@@ -19,7 +19,7 @@
     background: #957FEF;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .calculator form input {
@@ -34,7 +34,12 @@
     color: #7161ef;
     cursor: pointer;
     margin: 10px;
-    transition: all 0.8s ease;
+    transition: all 1s ease;
+}
+
+.calculator form input:hover {
+    background: #e0c1b8;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 form .display {
